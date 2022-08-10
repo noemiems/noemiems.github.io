@@ -31,7 +31,7 @@ body .body {
 	top: 0px;
 	/* background-color: rgba(0, 46, 82, 0.15); */
 	/* background-color: #6B7A8F; */
-	background-color: #B6A19E;
+	background-color: #DCD2C8;
 	padding: 20px;
 }
 .page {
@@ -255,7 +255,7 @@ section {
 .navbar-transparent {
 	/* background-color: rgba(0, 0, 0, 0); */
 	/* background-color: #6B7A8F; */
-	background-color: #B6A19E;
+	background-color: #DCD2C8;
 }
 .navbar-fixed-top.navbar-transparent .container {
 	padding-top: 30px;
