@@ -606,9 +606,10 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	transition:all .6s;
 	opacity:0;
 }
-.portfolio_single_content:hover div{
-	transform:scale(1);
-	opacity:1;
+.portfolio_single_content:hover {
+	/* transform:scale(1);
+	opacity:1; */
+	transform: scale(1.1);
 }
 .portfolio_single_content div a{
 	color: #F4F4F4;
