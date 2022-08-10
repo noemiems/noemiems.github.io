@@ -543,7 +543,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	width: 100%;
 	z-index: 5;
 	margin-bottom:30px;
-	/* overflow:hidden; */
+	overflow:hidden;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 	padding: 16px; 
 	text-align: center;
@@ -551,16 +551,16 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	
 }
 .portfolio_single_content:hover {
-	 /* -o-transform: scale(2); */
+	 /* -o-transform: scale(0.5); */
 	 /* -webkit-transform: scale(2); */
-	 -moz-transform: scale(2);
-	 -ms-transform: scale(2);
-	 /* transform: scale(2); */
-	 -moz-transition:all 1s;
+	 /* -moz-transform: scale(2);
+	 -ms-transform: scale(2); */
+	 transform: scale(1);
+	 /* -moz-transition:all 1s;
 	-webkit-transition:all 1s;
 	-o-transition:all 1s;
 	-ms-transition:all 1s;
-	transition:all 1s;
+	transition:all 1s; */
 }
 
 .portfolio_single_content{
