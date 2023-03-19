@@ -1,0 +1,520 @@
+/* Global Styles */
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+
+p {
+    font-size: 0.9rem;
+    font-family: "Open Sans";
+    line-height: 1.5;
+}
+  
+  /* Header Styles */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    /* z-index: 1; */
+  }
+  
+  .header-left h1 {
+    font-size: 20px;
+    margin: 0;
+    padding-left: 20px;
+    font-family: "Merriweather";
+    font-weight: 300;
+  }
+  
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-family: "Merriweather";
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  
+  .header-right a:hover {
+    color: #137ee9;
+    font-weight:700;
+  }
+  
+  /* Introduction Section Styles */
+  
+  .introduction {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 150px;
+    padding-bottom: 40px;
+  }
+  
+  .introduction-left {
+    flex-basis: calc(50% - 40px);
+  }
+  
+  .introduction-right {
+    flex-basis: 200px;
+    margin-left: 40px;
+  }
+  
+  .introduction h1 {
+    font-size: 25px;
+    margin-bottom: -10px;
+    /* color: #aed4fa;  */
+    color:#137ee9;
+    font-family: "Merriweather";
+  }
+  
+.introduction p {
+    margin-bottom: 20px;
+  }
+  
+  .introduction-right img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Work Section Styles */
+  
+/* Styles for the overall layout */
+/* Styles for the overall layout */
+/* .work{
+    background-color: #137ee9;
+} */
+.work h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 1rem;
+    font-family: "Merriweather";
+    color:#137ee9;
+  }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10%;
+    margin-top: 5rem;
+  }
+  
+  .work {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* Styles for the cards */
+  .card {
+    width: 45%;
+    height: 350px;
+    margin-bottom: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    background-color: #ecf2f8;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card:hover {
+    cursor: pointer;
+  }
+  
+  /* Styles for the image inside the card */
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit:contain;
+  }
+  
+  /* Styles for the text inside the card */
+  .card-content {
+    padding: 1rem;
+  }
+  
+  /* Styles for the title */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Styles for the subtitle */
+  .card-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  /* About section */
+
+  .about-section {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-image {
+    width: 50%;
+    max-height: 200px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content h1 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 25px;
+    color:#137ee9;
+    font-family: "Merriweather";
+  }
+  
+  .about-content p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-section {
+    max-width: 1200px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #137ee9;
+    color: #fff;
+  }
+  
+  .contact-section h1 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    font-family: "Merriweather";
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-content p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-content a {
+    color: inherit;
+    text-decoration: none;
+    font-family: "Open Sans";
+  }
+  
+  .contact-content button {
+    font-size: 18px;
+    padding: 0.5rem;
+    border: none;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-weight: 700;
+  }
+  
+  .contact-content button:hover {
+    background-color: #0056b2;
+    color: #fff;
+  }
+
+  .resume-button {
+    font-size: 18px;
+    padding: 0.5rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-weight: 700;
+  }
+  
+  .resume-button:hover {
+    background-color:#0056b2;
+    color: #fff;
+  }
+  
+  .resume-button:focus {
+    outline: none;
+  }
+  
+  
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  #work {
+    padding-top: 50px;
+  }
+
+a[href="#top"]:hover {
+    animation: scroll-to-top 0.3s ease-in-out forwards;
+  }
+  
+  @keyframes scroll-to-top {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+h1 {
+    font-size: 25px;
+    font-family: "Merriweather";
+    
+  }
+  .casestudy h1 {
+    text-align: center;
+    font-size: 6vw;
+    font-family: "Merriweather";
+    color:#007bff;
+  }
+  #casestudy {
+    padding-top: 100px;
+  }
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .company {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans";
+    margin-top:-1rem;
+    color:rgb(162, 157, 157);
+  }
+
+  .context {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 90%;
+  }
+  
+  .context .column {
+    flex-basis: 25%;
+    text-align: center;
+  }
+  
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: "Open Sans";
+    font-weight: bold;
+  }
+
+/* Takeaways */
+
+#takeaways {
+    /* background-color: #f9f9f9; */
+    background-color: #ecf2f8;
+    padding: 50px 0;
+    margin-top: 50px;
+    margin-bottom: -80px;
+  }
+  
+  #takeaways h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Merriweather";
+    color:#007bff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-basis: 25%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .col p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    flex-basis: 25%;
+  }
+  
+  .col img {
+    max-height: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    /* padding-left: 1rem; */
+  }
+  
+  #background h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Merriweather";
+    color:#007bff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #background {
+    background-color: #ecf2f8;
+    padding: 50px 0;
+  }
+
+.researchgoal {
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.researchgoal p{
+    margin-left:12rem;
+    margin-right: 12rem;
+}
+.researchgoal h1 {
+    color:#007bff;
+    width: 100%;
+    text-align: center;
+    font-family: "Merriweather";
+}
+
+.findings h1 {
+    color:#007bff;
+    width: 100%;
+    text-align: center;
+    font-family: "Merriweather";
+    padding-top:3rem;
+}
+
+.research h1 {
+    color:#007bff;
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: "Merriweather";
+}
+
+.research .column {
+    float: left;
+    text-align: center;
+    font-family: "Open Sans";
+    padding-left:1rem;
+    padding-right:1rem;
+    width: 30%;
+  }
+  
+.research .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .research h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Open Sans";
+    font-weight: bold;
+  }
+
+  ul {
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: "Open Sans";
+  }
+  
+  .research p {
+    text-align: justify;
+  }
+
+.quote {
+    font-family: "Indy Flower";
+    font-size:1.2rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-top: 40%;
+    margin-left:3rem;
+    margin-right:3rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.findings .column {
+    float: left;
+    width: 48%;
+}
+  
+  /* Clear floats after the columns */
+  .findings .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
